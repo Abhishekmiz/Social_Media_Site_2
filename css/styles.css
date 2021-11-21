@@ -1,0 +1,195 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bolder;
+}
+
+#title {
+  background-color: #E26A2C;
+}
+
+.topic {
+  color: #fff;
+  font-weight: bolder;
+}
+
+h1 {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Freehand', cursive;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+.Photo-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.forum-icon {
+  height: 30px;
+  width: 35px;
+}
+
+.color {
+  color: white;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2.0rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/* download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Mobile image */
+.mobile {
+  width: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 55%;
+}
+
+#features {
+  background-color: #fff;
+  padding: 1% 12%;
+  position:relative;
+  z-index: 1;
+}
+
+/* features */
+.Image-size {
+  /* height: 70px; */
+  width: 70px;
+  padding-bottom: 1rem;
+}
+
+.Image-size:hover {
+  color: #ff4c68;
+}
+
+.hov-pic{
+   float:left;
+}
+.hov-pic:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border: 0;
+}
+
+
+.feature-box {
+  text-align: center;
+  padding: 5%
+}
+
+.feature-Parah {
+  color: #8f8f8f;
+}
+
+/* testimonials section */
+#testimonials {
+
+  text-align: center;
+  /* background-color: #E26A2C; */
+  color: #fff;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.carousel-item
+{
+  padding: 2% 8%;
+}
+
+.testi-pic {
+  width: 40%;
+  border-radius: 100%;
+  margin: 15px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+#press
+{
+  text-align: center;
+  padding: 5% 0 5%;
+}
+
+/* Favorite Persons */
+
+.favorites
+{
+  width: 25%;
+  border-radius: 100%;
+  padding-margin: 50%;
+}
+
+.card-deck
+{
+  margin: auto;
+  width: 80%;
+
+}
+
+#pricing
+{
+  margin-top: 5%;
+
+}
+
+/* Footer-lines */
+
+.Footer-lines
+{
+  color: #fff;
+  font-family: 'Palanquin Dark', sans-serif;
+  padding-bottom: 10%;
+}
+
+.bottom-Footer
+{
+text-align: center;
+padding: 2% 30%;
+background-color:#121123
+}
+
+.anchor-list
+{
+  margin-right: 10px
+}
+
+@media (max-width: 1028px)
+{
+.mobile
+{
+  position: static;
+  transform: rotate(0);
+  width: 50%;
+}
+
+#title
+{
+  text-align: center;
+}
+}
